@@ -227,10 +227,6 @@ section .title::after {
 }
 
 /* about section styling */
-.about .title::after {
-  content: "who am i";
-}
-
 .about .about-content .left {
   width: 45%;
 }
@@ -367,10 +363,6 @@ section .title::after {
 }
 
 /* skills section styling */
-.skills .title::after {
-  background: #111;
-  content: "what i know";
-}
 .skills .skills-content .column {
   width: calc(50% - 30px);
 }
@@ -411,9 +403,6 @@ section .title::after {
 }
 
 /* Project section styling */
-.projects .title::after {
-  content: "check my work";
-}
 .projects .carousel .card {
   background: #222;
   border-radius: 10px;
@@ -472,6 +461,75 @@ section .title::after {
 .owl-dot:hover {
   background: rgb(40, 20, 220) !important;
 }
+
+/* Certificates section styling */
+.certificates{
+  background-color: #333;
+}
+
+.certificates h2{
+  color: aliceblue;
+}
+
+.certificates .carousel .card {
+  background: #cfc8c8;
+  border-radius: 10px;
+  padding: 25px 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+.certificates .carousel .card:hover {
+  background: rgb(228, 225, 225);
+}
+.certificates .carousel .card .box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+.certificates .carousel .card:hover .box {
+  transform: scale(1.02);
+}
+
+.certificates .carousel .card p {
+  font-size: 18px;
+  padding-top: 10px;
+  color: #0e0d0d;
+}
+.certificates .carousel .card img {
+  height: 250px;
+  width: 280px;
+  object-fit: fill;
+  border-radius: 10px;
+  border: 2px solid rgb(20, 26, 56);
+  transition: all 0.3s ease;
+}
+.certificates .carousel .card:hover img {
+  border-color: #fff;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid rgb(20, 67, 220) !important;
+  transition: all 0.3s ease;
+}
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot:hover {
+  background: rgb(40, 20, 220) !important;
+}
+
 
 /* contact section styling */
 .contact .title::after {
