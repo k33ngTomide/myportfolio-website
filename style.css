@@ -426,16 +426,17 @@ section .title::after {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease;
+  transition: all 0.6s ease;
 }
 .projects .carousel .card:hover .box {
-  transform: scale(1.02);
+  transform: scale(1.1);
 }
 
 .projects .carousel .card p {
-  font-size: 16px;
+  font-size: 18px;
   padding-top: 10px;
-  color: #fff;
+  color: #ece8e8;
+  font-family: "Ubuntu", sans-serif;
 }
 .projects .carousel .card img {
   height: 250px;
