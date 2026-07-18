@@ -1,411 +1,327 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="dark">
    <head>
       <meta charset="UTF-8">
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Muiliyu Sodiq Akintomide's Portfolio</title>
+      <title>Muiliyu Sodiq Akintomide | Portfolio</title>
+      <meta name="description" content="Portfolio of Sodiq Akintomide - Software Engineer, Full Stack Developer, and modern application builder.">
+      <meta name="theme-color" content="#0d132c">
       <link rel="icon" href="./images/favicon.png">
       <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
-      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" defer></script>
+      <script src="script.js" defer></script>
    </head>
    <body>
-      <!-- Scroll Button start -->
-      <div class="scroll-up-btn">
+      <div class="scroll-up-btn" aria-label="Scroll to top">
          <i class="fas fa-angle-double-up"></i>
       </div>
-      <!-- Scroll Button end -->
-      <!-- Navbar Start-->
-      <nav class="navbar">
-         <div class="max-width">
-            <div class="logo">
-               <a href="#">Akin<span>tomide</span>
-               </a>
+      <nav class="navbar" aria-label="Primary navigation">
+         <div class="max-width nav-inner">
+            <a class="logo" href="#home">Akin<span>tomide</span></a>
+            <div class="nav-links" role="menubar">
+               <a class="nav-link active" role="menuitem" href="#home">Home</a>
+               <a class="nav-link" role="menuitem" href="#about">About</a>
+               <a class="nav-link" role="menuitem" href="#skills">Skills</a>
+               <a class="nav-link" role="menuitem" href="#projects">Projects</a>
+               <a class="nav-link" role="menuitem" href="#certificates">Certifications</a>
+               <a class="nav-link" role="menuitem" href="#contact">Contact</a>
             </div>
-            <ul class="menu">
-               <li>
-                  <a href="#home" class="menu-btn">Home</a>
-               </li>
-               <li>
-                  <a href="#about" class="menu-btn">About</a>
-               </li>
-               <li>
-                  <a href="#skills" class="menu-btn">Skills</a>
-               </li>
-               <li>
-                  <a href="#projects" class="menu-btn">Projects</a>
-               </li>
-               <li>
-                  <a href="#certificates" class="menu-btn">Certifications</a>
-               </li>
-               <li>
-                  <a href="#contact" class="menu-btn">Contact</a>
-               </li>
-            </ul>
-            <div class="menu-btn">
-               <i class="fas fa-bars"></i>
+            <div class="nav-actions">
+               <button class="theme-toggle" type="button" aria-label="Toggle theme">
+                  <i class="fas fa-sun"></i>
+               </button>
+               <button class="hamburger" type="button" aria-label="Toggle navigation menu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </button>
             </div>
          </div>
       </nav>
-      <!-- Navbar End -->
-      <!-- Home Section Start -->
-      <section class="home" id="home">
-         <div class="max-width">
-            <div class="home-content">
-               <div class="text-1">Hello 👋 I'm</div>
-               <div class="text-2">Sodiq Akintomide <span>Muiliyu</span></div>
-               <div class="text-3">And I'm a <span class="typing"></span>
+      <main>
+         <section class="hero" id="home">
+            <div class="max-width hero-grid">
+               <div class="hero-copy">
+                  <span class="eyebrow">Modern engineering, polished delivery</span>
+                  <h1>Hi, I'm <span>Sodiq Akintomide Muiliyu</span></h1>
+                  <p class="hero-text">I build dependable digital products with elegant interfaces, strong backends, and smart automation.</p>
+                  <p class="hero-subtitle">I build <span class="typing"></span></p>
+                  <div class="hero-actions">
+                     <a class="button button-primary" href="#contact">Work with me</a>
+                     <a class="button button-secondary" href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noreferrer">Hire me</a>
+                  </div>
+                  <div class="hero-highlights">
+                     <span><i class="fas fa-code"></i> Full Stack Development</span>
+                     <span><i class="fas fa-server"></i> Backend Architecture</span>
+                     <span><i class="fas fa-robot"></i> AI & Intelligent Systems</span>
+                  </div>
                </div>
-               <a class="web" href="#contact">Email me <i class="fad fa-angle-right"></i>
-               </a>
-               <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank">Hire Me  <i class="fad fa-angle-right"></i>
-               </a>
-            </div>
-         </div>
-      </section>
-      <!-- Home Section End -->
-      <!-- About section start -->
-      <section class="about" id="about">
-         <div class="max-width">
-            <h2 class="title fadein">About me</h2>
-            <div class="about-content">
-               <div class="column left">
-                  <img src="images/picture.png" alt="Sodiq Akintomide Muiliyu">
-                  <div>
-                     <div class="wrapper">
-                        <div class="button1">
-                           <div class="icon">
-                              <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank">
-                              <i class="fab fa-linkedin"></i>
+               <div class="hero-card">
+                  <div class="profile-card">
+                     <img src="images/picture.png" alt="Portrait of Sodiq Akintomide">
+                     <div class="profile-details">
+                        <p class="profile-label">Software Engineer</p>
+                        <h2>Designing reliable, joyful products</h2>
+                        <p>From scalable APIs to sleek client experiences, I deliver full-stack solutions crafted to grow with teams and users.</p>
+                        <div class="profile-stats">
+                           <div>
+                              <strong>4+</strong>
+                              <span>Years experience</span>
                            </div>
-                           <span>LinkedIn </a>
-                           </span>
-                        </div>
-                        <div class="buttonmob">
-                           <div class="button1">
-                              <div class="icon">
-                                 <a href="https://twitter.com/akinz_sodiq" target="_blank">
-                                 <i class="fab fa-twitter"></i>
-                              </div>
-                              <span>Twitter </a>
-                              </span>
+                           <div>
+                              <strong>10+</strong>
+                              <span>Projects delivered</span>
                            </div>
-                        </div>
-                        <div class="buttonmob1"></div>
-                        <div class="button1">
-                           <div class="icon">
-                              <a href="https://github.com/k33ngTomide" target="_blank">
-                              <i class="fab fa-github"></i>
-                           </div>
-                           <span>Github </a>
-                           </span>
                         </div>
                      </div>
                   </div>
                </div>
-               <div class="column right">
-                  <div class="text">I'm Sodiq Akintomide and <span class="break">I'm a <span class="typing2"></span>
-                     </span>
-                  </div>
-                  <p>
-                     I am a dedicated Software Developer with a deep passion for building efficient, scalable, and user-focused applications. My journey began with a curiosity for how technology drives the world, leading me to master the art of transforming complex problems into streamlined solutions. I thrive in collaborative environments where ideas are shared, challenges are embraced, and technology is pushed to its full potential. With experience across both front-end and back-end development, I bring a holistic understanding of application design and functionality.
-
-                     I’m always eager to connect with like-minded professionals and explore new projects that push the boundaries of what technology can achieve. Let's build something amazing together.
-                  </p>
-               </div>
             </div>
-         </div>
-      </section>
-      <!-- about section End -->
-      <!-- Skills section start -->
-      <section class="skills" id="skills">
-         <div class="max-width">
-            <h2 class="title fadein">My skills</h2>
-            <div class="skills-content">
-               <div class="column left">
-                  <div class="text">My creative skills & experiences</div>
-                  <p>
-                     Languages: Proficient in java, python, typescript and javascript, with a focus on NodeJs (Ts and Js), Java for back-end development. Front End: React, Vite, InertiaJs.
-                     Frameworks: Experienced in Spring and SpringBoot, Django, Flask, Nodejs, NextJs, AdonisJs, leveraging them to build scalable and maintainable applications.
-                     Databases: Skilled in designing and optimizing databases using both SQL or NoSql to ensure seamless data management.
-                  </p>
-                  <a href="#projects">Read More <i class="fas fa-angle-double-right"></i>
-                  </a>
+         </section>
+         <section class="about" id="about">
+            <div class="max-width section-grid">
+               <div class="about-panel">
+                  <div class="about-card">
+                     <img src="images/picture.png" alt="Portrait of Sodiq Akintomide">
+                  </div>
                </div>
-               <div class="column right">
-                  <div class="info">
-                     <a href="https://java.com/" target="_blank">
-                     <img src="./images/java.png" alt="java" width="80" height="80" />
-                     </a>
-                     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-                     <img src="./images/javascript.png" alt="javascript" width="80" height="80" />
-                     </a>
-                     <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-                     <img src="./images/node-js.png" alt="nodejs" width="80" height="80" />
-                     </a>
-                     <a href="https://www.python.org/" target="_blank" rel="noreferrer">
-                     <img src="./images/python-logo-.png" alt="python" width="80" height="80" />
-                     </a>
-                     <a href="https://spring.io" target="_blank" rel="noreferrer">
-                     <img src="./images/springboot.png" alt="SpringBoot" width="80" height="80" />
-                     </a>
-                     <a href="https://www.w3.org/html/" target="_blank">
-                     <img src="./images/html5.png" alt="html5" width="80" height="80" />
-                     </a>
-                     <a href="https://www.w3schools.com/css/" target="_blank">
-                     <img src="./images/css3.png" alt="css3" width="80" height="80" />
-                     </a>
-                     <a href="https://jquery.com" target="_blank" rel="noreferrer">
-                     <img src="./images/jquery.png" alt="jquery" width="80" height="80" />
-                     </a>
-                     <a href="https://mysql.com" target="_blank" rel="noreferrer">
-                     <img src="./images/mysql.png" alt="SQL" width="80" height="80" />
-                     </a>
-                     <a href="https://flask.palletsprojects.com/" target="_blank">
-                     <img src="./images/flask.png" alt="Flask" width="80" height="80" />
-                     </a>
-                     <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
-                     <img src="./images/mongodb.png" alt="MongoDB" width="80" height="80" />
-                     </a>
-                     <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-                     <img src="./images/git.png" alt="git" width="80" height="80" />
-                     </a>
+               <div class="about-content">
+                  <p class="section-tag">About Me</p>
+                  <h2 class="title fadein">Trusted engineering that feels modern and intuitive</h2>
+                  <p class="section-copy">I am a dedicated Software Developer building efficient, scalable, user-first applications across both frontend and backend ecosystems. I bring strong architecture, clean interfaces, and AI-powered enhancements into every project.</p>
+                  <div class="about-grid">
+                     <div>
+                        <strong>Frontend</strong>
+                        <span>React, React Native, Next.js, HTML5, CSS3, Tailwind CSS, Vite</span>
+                     </div>
+                     <div>
+                        <strong>Backend</strong>
+                        <span>Node.js, Express.js, NestJS, Spring Boot, Flask, REST APIs, GraphQL, Microservices</span>
+                     </div>
+                     <div>
+                        <strong>Data & API</strong>
+                        <span>PostgreSQL, MongoDB, Redis, GraphQL</span>
+                     </div>
+                  </div>
+                  <div class="social-links">
+                     <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                     <a href="https://twitter.com/akinz_sodiq" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i> Twitter</a>
+                     <a href="https://github.com/k33ngTomide" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
                   </div>
                </div>
             </div>
-         </div>
-      </section>
-      <!-- Skills section end -->
-      <!-- Project section start -->
-      <section class="projects" id="projects">
-         <div class="max-width">
-            <h2 class="title fadein">My Projects</h2>
-            <div class="carousel owl-carousel">
-               <div class="card">
-                  <a href="https://qoncave.vercel.app/" target="_blank">
-                     <div class="box">
-                        <img src="./images/qoncave.png" alt="Chat Application">
-                        <p>Qoncave Website</p>
-                        <p>React, JavaScript, Tailwindcss</p>
-                     </div>
-                  </a>
+         </section>
+         <section class="skills" id="skills">
+            <div class="max-width">
+               <div class="section-intro">
+                  <p class="section-tag">Technical Skills</p>
+                  <h2 class="title fadein">What I build with</h2>
+                  <p class="section-copy">A modern stack equipped for production applications, AI-driven systems, and cloud-native deployment.</p>
                </div>
-
-               <div class="card">
-                  <a href="https://github.com/k33ngTomide/chatbot_backend" target="_blank">
-                     <div class="box">
-                        <img src="./images/chatApp.png" alt="Chat Application">
-                        <p>ChatBot Application Source Code</p>
-                        <p>AdonisJs, Javascript, SqLite3</p>
-                     </div>
-                  </a>
-               </div>
-
-               <div class="card">
-                  <a href="https://trivia-app-jet.vercel.app/" target="_blank">
-                     <div class="box">
-                        <img src="./images/lexiguide.png" alt="Trivia Quiz Application">
-                        <p>Lexiguide Dictionary App</p>
-                        <p>React, JavaScript, WikipediaApi</p>
-                     </div>
-                  </a>
-               </div>
-
-               <div class="card">
-                  <a href="https://github.com/k33ngTomide/ChatAPP/blob/main/src/main/java/com/talkative/controller/UserController.java" target="_blank">
-                     <div class="box">
-                        <img src="./images/chatApp.png" alt="Chat Application">
-                        <p>Chat Application Source Code</p>
-                        <p>Java, Maven, SpringBoot</p>
-                     </div>
-                  </a>
-               </div>
-               
-               <div class="card">
-                  <a href="https://trivia-app-jet.vercel.app/" target="_blank">
-                     <div class="box">
-                        <img src="./images/trivia-quiz-app.png" alt="Trivia Quiz Application">
-                        <p>Trivia Quiz App</p>
-                        <p>Html, Css, JavaScript</p>
-                     </div>
-                  </a>
-               </div>
-
-               <div class="card">
-                  <a href="https://xplora-io.vercel.app/" target="_blank">
-                     <div class="box">
-                        <img src="./images/xplora.png" alt="Chat Application">
-                        <p>Xplora.io webpage</p>
-                        <p>React, JavaScript, TailwindCss</p>
-                     </div>
-                  </a>
-               </div>
-
-               <div class="card">
-                  <a href="https://github.com/k33ngTomide/Medical-Record-App" target="_blank">
-                     <div class="box">
-                        <img src="./images/medicalRecordApp.png" alt="Medical Record Application">
-                        <p>Medical Record Application Backend</p>
-                        <p>Java, Maven, SpringBoot</p>
-                     </div>
-                  </a>
-               </div>
-
-               <div class="card">
-                  <a href="https://github.com/k33ngTomide/Library-Management-App" target="_blank">
-                     <div class="box">
-                        <img src="./images/LibraryApp.png" alt="Library Application">
-                        <p>Library Management Application</p>
-                        <p>Java, Maven, SpringBoot</p>
-                     </div>
-                  </a>
+               <div class="skills-grid">
+                  <article class="skill-card">
+                     <h3>Languages</h3>
+                     <p>TypeScript, JavaScript (ES6+), Java, Python, SQL</p>
+                  </article>
+                  <article class="skill-card">
+                     <h3>Frontend & Mobile</h3>
+                     <p>React, React Native, Next.js, HTML5, CSS3, Tailwind CSS, Vite</p>
+                  </article>
+                  <article class="skill-card">
+                     <h3>Backend</h3>
+                     <p>Node.js, Express.js, NestJS, Spring Boot, Flask, REST APIs, GraphQL, Microservices</p>
+                  </article>
+                  <article class="skill-card">
+                     <h3>AI & Intelligent Systems</h3>
+                     <p>LLM Integration, AI Agents(Antigravity, Codex, Copilot, Claude), Prompt Engineering, Chatbots, Recommendation Systems, AI Workflow Automation</p>
+                  </article>
+                  <article class="skill-card">
+                     <h3>Databases & Caching</h3>
+                     <p>PostgreSQL, MongoDB, MySQL, Prisma ORM, Redis</p>
+                  </article>
+                  <article class="skill-card">
+                     <h3>Cloud & DevOps</h3>
+                     <p>Docker, AWS (EC2), GitHub Actions, CI/CD, Jenkins, Vercel, Render, Railway</p>
+                  </article>
+                  <article class="skill-card">
+                     <h3>Testing</h3>
+                     <p>Jest, JUnit, PyTest</p>
+                  </article>
+                  <article class="skill-card">
+                     <h3>Tools & Analytics</h3>
+                     <p>Git, GitHub, GitLab, Postman, Swagger/OpenAPI, Amplitude</p>
+                  </article>
                </div>
             </div>
-         </div>
-      </section>
-      <!-- Project section end -->
-
-      <!-- Certificate section start -->
-<section class="certificates" id="certificates">
-   <div class="max-width">
-      <h2 class="title fadein">My Certifications</h2>
-      <div class="carousel owl-carousel">
-         <div class="card">
-            <a href="https://www.hackerrank.com/certificates/1e57fccab4bd" target="_blank">
-               <div class="box">
-                  <img src="./images/javaCertificate.png" alt="Chat Application">
-                  <p>Java Programming Language Test Certificate</p>
-                  <p>HackerRank</p>
+         </section>
+         <section class="projects" id="projects">
+            <div class="max-width">
+               <div class="section-intro">
+                  <p class="section-tag">Projects</p>
+                  <h2 class="title fadein">Selected work</h2>
                </div>
-            </a>
-         </div>
-         <div class="card">
-            <a href="https://www.hackerrank.com/certificates/7ec0e2192ab5" target="_blank">
-               <div class="box">
-                  <img src="./images/pythonCertificate.png" alt="Medical Record Application">
-                  <p>Python Programming Language Test Certificate</p>
-                  <p>HackerRank</p>
+               <div class="cards-grid">
+                  <article class="project-card">
+                     <a href="https://qoncave.vercel.app/" target="_blank" rel="noreferrer">
+                        <img src="./images/qoncave.png" alt="Qoncave Website">
+                        <div class="project-content">
+                           <h3>Qoncave Website</h3>
+                           <p>React, JavaScript, Tailwind CSS</p>
+                        </div>
+                     </a>
+                  </article>
+                  <article class="project-card">
+                     <a href="https://github.com/k33ngTomide/ShopEx" target="_blank" rel="noreferrer">
+                        <img src="./images/ShopEx.png" alt="Xplora.io Webpage">
+                        <div class="project-content">
+                           <h3>ShopEx</h3>
+                           <p>NextJs, TypeScript, Tailwind CSS, Antigravity(Agent)</p>
+                        </div>
+                     </a>
+                  </article>
+                  <article class="project-card">
+                     <a href="https://github.com/k33ngTomide/chatbot_backend" target="_blank" rel="noreferrer">
+                        <img src="./images/chatApp.png" alt="ChatBot Application">
+                        <div class="project-content">
+                           <h3>ChatBot Backend</h3>
+                           <p>AdonisJs, JavaScript, SQLite</p>
+                        </div>
+                     </a>
+                  </article>
+                  <article class="project-card">
+                     <a href="https://trivia-app-jet.vercel.app/" target="_blank" rel="noreferrer">
+                        <img src="./images/lexiguide.png" alt="Lexiguide Dictionary App">
+                        <div class="project-content">
+                           <h3>Lexiguide App</h3>
+                           <p>React, JavaScript, Wikipedia API</p>
+                        </div>
+                     </a>
+                  </article>
+                  <article class="project-card">
+                     <a href="https://trivia-app-jet.vercel.app/" target="_blank" rel="noreferrer">
+                        <img src="./images/trivia-quiz-app.png" alt="Trivia Quiz App">
+                        <div class="project-content">
+                           <h3>Trivia Quiz App</h3>
+                           <p>HTML, CSS, JavaScript</p>
+                        </div>
+                     </a>
+                  </article>
+                  
                </div>
-            </a>
-         </div>
-         <div class="card">
-            <a href="./images/powerBiCertificate.jpg" target="_blank">
-               <div class="box">
-                  <img src="./images/powerBiCertificate.jpg" alt="Library Application">
-                  <p>PowerBi</p>
-                  <p>Udemy, Inc</p>
+            </div>
+         </section>
+         <section class="certificates" id="certificates">
+            <div class="max-width">
+               <div class="section-intro">
+                  <p class="section-tag">Certifications</p>
+                  <h2 class="title fadein">Honors & credentials</h2>
                </div>
-            </a>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- Certifications section end -->
-
-      
-      <!-- Contact section start -->
-      <section class="contact" id="contact">
-         <div class="max-width">
-            <h2 class="title fadein">Contact me</h2>
-            <div class="contact-content">
-               <div class="column left">
-                  <div class="text">Reach Out to me!</div>
-                  <p>Discuss a Project or just want to say Hi? My inbox is open for all.</p>
-                  <div class="icons">
-                     <div class="row">
+               <div class="cards-grid certificate-grid">
+                  <article class="cert-card">
+                     <a href="https://www.hackerrank.com/certificates/baa006b72b03" target="_blank" rel="noreferrer">
+                        <img src="./images/softwareEngineerCertificate.png" alt="Software Engineer Certificate">
+                        <div>
+                           <h3>Software Engineer Certification</h3>
+                           <p>HackerRank</p>
+                        </div>
+                     </a>
+                  </article>
+                  <article class="cert-card">
+                     <a href="https://www.hackerrank.com/certificates/1e57fccab4bd" target="_blank" rel="noreferrer">
+                        <img src="./images/javaCertificate.png" alt="Java Certificate">
+                        <div>
+                           <h3>Java Certification</h3>
+                           <p>HackerRank</p>
+                        </div>
+                     </a>
+                  </article>
+                  <article class="cert-card">
+                     <a href="https://www.hackerrank.com/certificates/7ec0e2192ab5" target="_blank" rel="noreferrer">
+                        <img src="./images/pythonCertificate.png" alt="Python Certificate">
+                        <div>
+                           <h3>Python Certification</h3>
+                           <p>HackerRank</p>
+                        </div>
+                     </a>
+                  </article>
+                  
+                  <article class="cert-card">
+                     <a href="./images/powerBiCertificate.jpg" target="_blank" rel="noreferrer">
+                        <img src="./images/powerBiCertificate.jpg" alt="Power BI Certificate">
+                        <div>
+                           <h3>Power BI Certificate</h3>
+                           <p>Udemy</p>
+                        </div>
+                     </a>
+                  </article>
+               </div>
+            </div>
+         </section>
+         <section class="contact" id="contact">
+            <div class="max-width contact-grid">
+               <div class="contact-panel">
+                  <p class="section-tag">Contact</p>
+                  <h2 class="title fadein">Let's work together</h2>
+                  <p class="section-copy">Have an idea or a challenge? I’m available for freelance, contract, and full-time opportunities.</p>
+                  <div class="contact-info">
+                     <div>
                         <i class="fas fa-user"></i>
-                        <div class="info">
-                           <div class="head">Name</div>
-                           <div class="sub-title">Muiliyu Sodiq Akintomide</div>
+                        <div>
+                           <strong>Name</strong>
+                           <span>Sodiq Akintomide Muiliyu</span>
                         </div>
                      </div>
-                     <div class="row">
+                     <div>
                         <i class="fas fa-map-marker-alt"></i>
-                        <div class="info">
-                           <div class="head">Address</div>
-                           <div class="sub-title">Lagos, Nigeria</div>
+                        <div>
+                           <strong>Location</strong>
+                           <span>Lagos, Nigeria</span>
                         </div>
                      </div>
-                     <div class="row">
-                        <i class="fas fa-envelope email-icon"></i>
-                        <div class="info">
-                           <div class="head">Email</div>
-                           <div class="sub-title">msodiqakintomide@gmail.com</div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="text1">Stay Connected</div>
-                  <div>
-                     <div class="wrapper">
-                        <div class="button1">
-                           <div class="icon">
-                              <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank">
-                              <i class="fab fa-linkedin"></i>
-                           </div>
-                           <span>LinkedIn </a>
-                           </span>
-                        </div>
-                        <div class="buttonmob">
-                           <div class="button1">
-                              <div class="icon">
-                                 <a href="https://twitter.com/akinz_sodiq" target="_blank">
-                                 <i class="fab fa-twitter"></i>
-                              </div>
-                              <span>Twitter </a>
-                              </span>
-                           </div>
-                        </div>
-                        <div class="buttonmob1"></div>
-                        <div class="button1">
-                           <div class="icon">
-                              <a href="https://github.com/k33ngTomide" target="_blank">
-                              <i class="fab fa-github"></i>
-                           </div>
-                           <span>Github </a>
-                           </span>
+                     <div>
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                           <strong>Email</strong>
+                           <span>msodiqakintomide@gmail.com</span>
                         </div>
                      </div>
                   </div>
+                  <div class="contact-socials">
+                     <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                     <a href="https://twitter.com/akinz_sodiq" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i> Twitter</a>
+                     <a href="https://github.com/k33ngTomide" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
+                  </div>
                </div>
-               <div class="column right" id="newest">
-                  <div class="text">Message me</div>
-                  <form action="mailto:msodiqakintomide@gmail.com" method="post">
-                     <div class="fields">
-                        <div class="field name">
-                           <input type="text" placeholder="Full Name" id='name' required>
-                        </div>
-                        <div class="field email">
-                           <input type="email" placeholder="Email" id="email" required>
-                        </div>
-                     </div>
-                     <div class="field">
-                        <input type="text" placeholder="Subject" id='subject' required>
-                     </div>
-                     <div class="field textarea">
-                        <textarea cols="30" rows="10" placeholder="Describe Project... / Type in your Message" id='message' required></textarea>
-                     </div>
-                     <div class="button">
-                        <button type="submit">Send Message <i class="fas fa-paper-plane"></i>
-                        </button>
-                     </div>
-                  </form>
-               </div>
+               <form class="contact-form" action="mailto:msodiqakintomide@gmail.com" method="post">
+                  <div class="fields-row">
+                     <label class="field-label">
+                        <span class="visually-hidden">Full name</span>
+                        <input type="text" name="name" id="name" placeholder="Full Name" required>
+                     </label>
+                     <label class="field-label">
+                        <span class="visually-hidden">Email address</span>
+                        <input type="email" name="email" id="email" placeholder="Email" required>
+                     </label>
+                  </div>
+                  <label class="field-label">
+                     <span class="visually-hidden">Subject</span>
+                     <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                  </label>
+                  <label class="field-label">
+                     <span class="visually-hidden">Message</span>
+                     <textarea name="message" id="message" placeholder="Describe your project or message" rows="6" required></textarea>
+                  </label>
+                  <button type="submit" class="button button-primary">Send Message <i class="fas fa-paper-plane"></i></button>
+               </form>
             </div>
-         </div>
-      </section>
-      <!-- Contact section end -->
-      <!-- footer section start -->
+         </section>
+      </main>
       <footer>
-         <span>Created By <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank">Muiliyu Sodiq Akintomide</a> | <span class="far fa-copyright"></span> 2023 All rights reserved </span>
+         <div class="max-width footer-content">
+            <span>Created by <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noreferrer">Sodiq Akintomide Muiliyu</a> | © 2026 All rights reserved</span>
+         </div>
       </footer>
-      <!-- footer section end -->
-      <!-- External Javascript File start-->
-      <script src="script.js" async></script>
-      <!-- External Javascript File end-->
    </body>
 </html>
