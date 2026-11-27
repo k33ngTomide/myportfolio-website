@@ -1,12 +1,10 @@
 {
   "name": "sodiq-akintomide-muiliyu-portfolio",
-  "version": "1.0.0",
-  "description": "",
-  "main": "script.js",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Portfolio of Sodiq Akintomide Muiliyu, Full Stack Software Engineer. Static HTML, CSS and JavaScript.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "python3 -m http.server 5501"
   },
-  "keywords": [],
-  "author": "",
   "license": "ISC"
 }

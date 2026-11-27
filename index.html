@@ -1,327 +1,607 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" data-theme="dark">
-   <head>
-      <meta charset="UTF-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Muiliyu Sodiq Akintomide | Portfolio</title>
-      <meta name="description" content="Portfolio of Sodiq Akintomide - Software Engineer, Full Stack Developer, and modern application builder.">
-      <meta name="theme-color" content="#0d132c">
-      <link rel="icon" href="./images/favicon.png">
-      <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" defer></script>
-      <script src="script.js" defer></script>
-   </head>
-   <body>
-      <div class="scroll-up-btn" aria-label="Scroll to top">
-         <i class="fas fa-angle-double-up"></i>
-      </div>
-      <nav class="navbar" aria-label="Primary navigation">
-         <div class="max-width nav-inner">
-            <a class="logo" href="#home">Akin<span>tomide</span></a>
-            <div class="nav-links" role="menubar">
-               <a class="nav-link active" role="menuitem" href="#home">Home</a>
-               <a class="nav-link" role="menuitem" href="#about">About</a>
-               <a class="nav-link" role="menuitem" href="#skills">Skills</a>
-               <a class="nav-link" role="menuitem" href="#projects">Projects</a>
-               <a class="nav-link" role="menuitem" href="#certificates">Certifications</a>
-               <a class="nav-link" role="menuitem" href="#contact">Contact</a>
-            </div>
-            <div class="nav-actions">
-               <button class="theme-toggle" type="button" aria-label="Toggle theme">
-                  <i class="fas fa-sun"></i>
-               </button>
-               <button class="hamburger" type="button" aria-label="Toggle navigation menu">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-               </button>
-            </div>
-         </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sodiq Akintomide Muiliyu | Full Stack Software Engineer</title>
+  <meta name="description" content="Full Stack Software Engineer in Lagos, Nigeria, building scalable backend systems, web and mobile applications, and AI-powered products.">
+  <meta name="author" content="Sodiq Akintomide Muiliyu">
+  <meta name="theme-color" content="#0B1120">
+  <link rel="canonical" href="https://k33ngtomide.github.io/myportfolio-website/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Sodiq Akintomide Muiliyu">
+  <meta property="og:title" content="Sodiq Akintomide Muiliyu | Full Stack Software Engineer">
+  <meta property="og:description" content="Full Stack Software Engineer in Lagos, Nigeria, building scalable backend systems, web and mobile applications, and AI-powered products.">
+  <meta property="og:url" content="https://k33ngtomide.github.io/myportfolio-website/">
+  <meta property="og:image" content="https://k33ngtomide.github.io/myportfolio-website/assets/img/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Sodiq Akintomide Muiliyu, Full Stack Software Engineer">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Sodiq Akintomide Muiliyu | Full Stack Software Engineer">
+  <meta name="twitter:description" content="Full Stack Software Engineer in Lagos, Nigeria, building scalable backend systems, web and mobile applications, and AI-powered products.">
+  <meta name="twitter:image" content="https://k33ngtomide.github.io/myportfolio-website/assets/img/og-cover.jpg">
+
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icons/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+
+  <link rel="preload" href="assets/fonts/inter-400.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="assets/fonts/bricolage-700.woff" as="font" type="font/woff" crossorigin>
+  <script src="js/theme.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/main.js" defer></script>
+  <script src="js/contact.js" defer></script>
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Sodiq Akintomide Muiliyu",
+  "jobTitle": "Full Stack Software Engineer",
+  "url": "https://k33ngtomide.github.io/myportfolio-website/",
+  "image": "https://k33ngtomide.github.io/myportfolio-website/assets/img/portrait-896.webp",
+  "email": "mailto:msodiqakintomide@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Lagos",
+    "addressCountry": "NG"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "Kenkeputa"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Federal University of Agriculture, Abeokuta"
+    },
+    {
+      "@type": "EducationalOrganization",
+      "name": "Semicolon Africa"
+    }
+  ],
+  "sameAs": [
+    "https://www.linkedin.com/in/sodiq-muiliyu-484013226",
+    "https://github.com/k33ngTomide",
+    "https://twitter.com/akinz_sodiq"
+  ],
+  "knowsAbout": [
+    "Full stack software engineering",
+    "Backend engineering",
+    "Mobile application development",
+    "System design",
+    "AI integration",
+    "Database design",
+    "Cloud infrastructure"
+  ]
+}
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="Sodiq Akintomide Muiliyu, back to top"><span class="brand-mark" aria-hidden="true">SA</span><span class="brand-name">Sodiq Akintomide</span></a>
+      <nav id="site-nav" class="nav-menu" aria-label="Primary">
+        <ul>
+          <li><a class="nav-link" href="#about">About</a></li>
+          <li><a class="nav-link" href="#experience">Experience</a></li>
+          <li><a class="nav-link" href="#skills">Skills</a></li>
+          <li><a class="nav-link" href="#projects">Projects</a></li>
+          <li><a class="nav-link" href="#credentials">Credentials</a></li>
+          <li><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
       </nav>
-      <main>
-         <section class="hero" id="home">
-            <div class="max-width hero-grid">
-               <div class="hero-copy">
-                  <span class="eyebrow">Modern engineering, polished delivery</span>
-                  <h1>Hi, I'm <span>Sodiq Akintomide Muiliyu</span></h1>
-                  <p class="hero-text">I build dependable digital products with elegant interfaces, strong backends, and smart automation.</p>
-                  <p class="hero-subtitle">I build <span class="typing"></span></p>
-                  <div class="hero-actions">
-                     <a class="button button-primary" href="#contact">Work with me</a>
-                     <a class="button button-secondary" href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noreferrer">Hire me</a>
-                  </div>
-                  <div class="hero-highlights">
-                     <span><i class="fas fa-code"></i> Full Stack Development</span>
-                     <span><i class="fas fa-server"></i> Backend Architecture</span>
-                     <span><i class="fas fa-robot"></i> AI & Intelligent Systems</span>
-                  </div>
-               </div>
-               <div class="hero-card">
-                  <div class="profile-card">
-                     <img src="images/picture.png" alt="Portrait of Sodiq Akintomide">
-                     <div class="profile-details">
-                        <p class="profile-label">Software Engineer</p>
-                        <h2>Designing reliable, joyful products</h2>
-                        <p>From scalable APIs to sleek client experiences, I deliver full-stack solutions crafted to grow with teams and users.</p>
-                        <div class="profile-stats">
-                           <div>
-                              <strong>4+</strong>
-                              <span>Years experience</span>
-                           </div>
-                           <div>
-                              <strong>10+</strong>
-                              <span>Projects delivered</span>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
+      <div class="nav-actions">
+        <button class="icon-button theme-toggle js-only" type="button" aria-label="Switch to light theme"><svg class="icon icon-sun" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#sun"></use></svg><svg class="icon icon-moon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#moon"></use></svg></button>
+        <button class="icon-button menu-toggle js-only" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav"><svg class="icon icon-menu" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#menu"></use></svg><svg class="icon icon-close" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#close"></use></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="availability"><span aria-hidden="true"></span>Open to new opportunities</p>
+          <p class="hero-name">Sodiq Akintomide Muiliyu</p>
+          <h1 id="hero-title">Building Scalable Software. <span class="gradient-text">Engineering Intelligent Solutions.</span></h1>
+          <p class="hero-role">Full Stack Software Engineer <span aria-hidden="true">/</span> <span class="location"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#pin"></use></svg> Lagos, Nigeria</span></p>
+          <p class="hero-text">I’m Sodiq Akintomide Muiliyu, a Full Stack Software Engineer focused on building scalable backend systems, intuitive digital experiences, and AI-powered applications. I turn complex problems into dependable software products.</p>
+          <div class="actions">
+            <a class="button button-primary" href="#projects"><span>View Projects</span><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-right"></use></svg></a>
+            <a class="button button-secondary" href="https://drive.google.com/uc?export=download&amp;id=1DM8t3gRiyPDxD_ZQck0R7lJ5u4wVWLo8" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#download"></use></svg><span>Download CV</span></a>
+          </div>
+          <div class="socials">
+            <a class="social-link" href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#linkedin"></use></svg><span>LinkedIn</span></a>
+            <a class="social-link" href="https://github.com/k33ngTomide" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#github"></use></svg><span>GitHub</span></a>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="portrait">
+            <img src="assets/img/portrait-896.webp" srcset="assets/img/portrait-480.webp 480w, assets/img/portrait-896.webp 896w" sizes="(max-width: 900px) min(80vw, 360px), 400px" width="896" height="1200" alt="Portrait of Sodiq Akintomide Muiliyu in a navy suit" fetchpriority="high">
+          </div>
+          <div class="code-card" aria-hidden="true">
+            <div class="code-head"><span class="dots"><i></i><i></i><i></i></span>engineer.ts</div>
+            <pre><code><span class="line"><b>const</b> engineer = {</span>
+<span class="line">  focus: <i>"backend systems"</i>,</span>
+<span class="line">  ships: [<i>"web"</i>, <i>"mobile"</i>, <i>"AI"</i>],</span>
+<span class="line">  values: <i>"reliability"</i>,</span>
+<span class="line">};<span class="caret"></span></span></code></pre>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <dl class="facts">
+          <div><dt>Experience</dt><dd>4+ years in software development</dd></div>
+          <div><dt>Currently</dt><dd>Full Stack Software Engineer, Kenkeputa</dd></div>
+          <div><dt>Core focus</dt><dd>Backend, mobile and AI integration</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="reveal">
+          <p class="section-tag"><span>01</span> About</p>
+          <h2 id="about-title">Engineering from the interface to the infrastructure</h2>
+          <p>I’m a Full Stack Software Engineer with 4+ years of software development experience. I work across web, mobile, databases, cloud infrastructure and AI integrations, with a particular interest in scalable backend systems.</p>
+          <p>My production work includes REST APIs, payment integrations, recommendation systems, analytics integrations and administrative dashboards, from Java services supporting financial operations to React Native applications and their Node.js backends.</p>
+          <p>In practice, that means writing code others can maintain, designing backends that stay reliable, measuring and improving performance, and working closely with the team. I keep learning, and adopt new technology where it solves a real problem.</p>
+        </div>
+        <ul class="focus-grid">
+            <li class="card focus-card reveal"><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#layout"></use></svg><h3>Web and mobile</h3><p>React, Next.js and React Native interfaces, including administrative dashboards.</p></li>
+            <li class="card focus-card reveal"><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#server"></use></svg><h3>Backend and APIs</h3><p>REST APIs and services with Node.js, Express.js and Java with Spring Boot.</p></li>
+            <li class="card focus-card reveal"><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#database"></use></svg><h3>Data and cloud</h3><p>Relational and document databases, containers, CI/CD and cloud deployment.</p></li>
+            <li class="card focus-card reveal"><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#brain"></use></svg><h3>AI and product signals</h3><p>Recommendation systems, AI-powered features, payments and analytics integrations.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-tag"><span>02</span> Experience</p>
+          <h2 id="experience-title">Professional experience</h2>
+        </header>
+        <ol class="timeline">
+          <li class="timeline-item reveal is-current">
+            <div class="timeline-meta"><p><time datetime="2024-06">June 2024</time> – Present</p><span class="badge">Current</span></div>
+            <article class="card timeline-card">
+              <h3>Kenkeputa</h3>
+              <p class="role">Full Stack Software Engineer</p>
+              <ul class="checks">
+                <li>Develop and maintain React Native applications.</li>
+                <li>Build and maintain backend services with Node.js and Express.js.</li>
+                <li>Design REST APIs and PostgreSQL database structures.</li>
+                <li>Integrate Google Maps and location-based features, and implement Stripe payments.</li>
+                <li>Develop recommendation systems and AI-powered features, including image relevance scoring with AWS Rekognition.</li>
+                <li>Integrate Amplitude analytics, and carry out application performance testing and optimisation.</li>
+                <li>Manage releases through Google Play Console and App Store Connect.</li>
+                <li>Work on administrative dashboards and backend architecture improvements.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies"><li>React Native</li><li>Node.js</li><li>Express.js</li><li>PostgreSQL</li><li>Google Maps</li><li>Stripe</li><li>AWS Rekognition</li><li>Amplitude</li></ul>
+            </article>
+          </li>
+          <li class="timeline-item reveal">
+            <div class="timeline-meta"><p><time datetime="2023-03">March 2023</time> – <time datetime="2024-05">May 2024</time></p></div>
+            <article class="card timeline-card">
+              <h3>Tranxactrust</h3>
+              <p class="role">Software Engineer</p>
+              <ul class="checks">
+                <li>Developed backend services with Java and Spring Boot.</li>
+                <li>Built and maintained REST APIs for financial operations.</li>
+                <li>Integrated payment gateways and third-party services.</li>
+                <li>Implemented authentication and transaction-related functionality.</li>
+                <li>Wrote automated tests and improved backend reliability.</li>
+                <li>Worked on performance optimisation and maintainable application architecture.</li>
+              </ul>
+              <ul class="tags" aria-label="Technologies"><li>Java</li><li>Spring Boot</li><li>REST APIs</li><li>Payment gateways</li><li>Automated testing</li></ul>
+            </article>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-tag"><span>03</span> Technical skills</p>
+          <h2 id="skills-title">The tools I build with</h2>
+          <p class="section-copy">Grouped by where they sit in a product, from the interface to deployment.</p>
+        </header>
+        <div class="skills-grid">
+          <article class="card skill-card reveal">
+            <h3><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#code"></use></svg><span>Programming Languages</span></h3>
+            <ul class="skill-list">
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#javascript"></use></svg><span>JavaScript</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#typescript"></use></svg><span>TypeScript</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#java"></use></svg><span>Java</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#python"></use></svg><span>Python</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#database"></use></svg><span>SQL</span></li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal">
+            <h3><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#layout"></use></svg><span>Frontend Development</span></h3>
+            <ul class="skill-list">
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#react"></use></svg><span>React</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#react"></use></svg><span>React Native</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#nextjs"></use></svg><span>Next.js</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#vite"></use></svg><span>Vite</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#tailwind"></use></svg><span>Tailwind CSS</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#html"></use></svg><span>HTML5</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#css"></use></svg><span>CSS3</span></li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal">
+            <h3><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#server"></use></svg><span>Backend Engineering</span></h3>
+            <ul class="skill-list">
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#node"></use></svg><span>Node.js</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#express"></use></svg><span>Express.js</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#nestjs"></use></svg><span>NestJS</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#adonis"></use></svg><span>AdonisJS</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#spring"></use></svg><span>Spring Boot</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#flask"></use></svg><span>Flask</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#api"></use></svg><span>REST APIs</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#graphql"></use></svg><span>GraphQL</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#services"></use></svg><span>Microservices</span></li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal">
+            <h3><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#database"></use></svg><span>Databases and ORM</span></h3>
+            <ul class="skill-list">
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#postgres"></use></svg><span>PostgreSQL</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#mysql"></use></svg><span>MySQL</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#mongodb"></use></svg><span>MongoDB</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#redis"></use></svg><span>Redis</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#prisma"></use></svg><span>Prisma</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#sequelize"></use></svg><span>Sequelize</span></li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal">
+            <h3><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#brain"></use></svg><span>AI and Intelligent Systems</span></h3>
+            <ul class="skill-list">
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#brain"></use></svg><span>LLM Integration</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#bot"></use></svg><span>AI Agents</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#prompt"></use></svg><span>Prompt Engineering</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#sparkles"></use></svg><span>Recommendation Systems</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#chat"></use></svg><span>AI Chatbots</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#workflow"></use></svg><span>Workflow Automation</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#search"></use></svg><span>Retrieval-Augmented Generation (RAG)</span></li>
+            </ul>
+          </article>
+          <article class="card skill-card reveal">
+            <h3><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#cloud"></use></svg><span>Cloud and DevOps</span></h3>
+            <ul class="skill-list">
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#aws"></use></svg><span>AWS EC2</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#docker"></use></svg><span>Docker</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#actions"></use></svg><span>GitHub Actions</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#cicd"></use></svg><span>CI/CD</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#jenkins"></use></svg><span>Jenkins</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#vercel"></use></svg><span>Vercel</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#render"></use></svg><span>Render</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#railway"></use></svg><span>Railway</span></li>
+            </ul>
+          </article>
+          <article class="card skill-card skill-wide reveal">
+            <h3><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#flaskc"></use></svg><span>Testing and Development Tools</span></h3>
+            <ul class="skill-list">
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#jest"></use></svg><span>Jest</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#junit"></use></svg><span>JUnit</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#pytest"></use></svg><span>PyTest</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#git"></use></svg><span>Git</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#github"></use></svg><span>GitHub</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#gitlab"></use></svg><span>GitLab</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#postman"></use></svg><span>Postman</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#swagger"></use></svg><span>Swagger/OpenAPI</span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#chart"></use></svg><span>Amplitude</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-tag"><span>04</span> Featured projects</p>
+          <h2 id="projects-title">Products and systems</h2>
+          <p class="section-copy">Web, mobile and research work, with the engineering behind each one.</p>
+        </header>
+        <div class="projects">
+          <article class="card project reveal" aria-labelledby="pdfixit-title">
+            <figure class="preview">
+              <figcaption><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>pdfixit<em>Workflow diagram</em></figcaption>
+              <ol class="flow"><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#file"></use></svg><span><strong>Upload</strong><small>PDF files up to 50 MB</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#edit"></use></svg><span><strong>Edit</strong><small>Text, highlights, images, shapes</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#download"></use></svg><span><strong>Download</strong><small>Export an updated PDF</small></span></li></ol>
+            </figure>
+            <div class="project-body">
+              <p class="kicker">Web application</p>
+              <h3 id="pdfixit-title">PDFixit</h3>
+              <p>A web-based PDF editor that runs in the browser. Documents are edited on the user’s device, with no account required.</p>
+              <div class="project-detail">
+                <h4>My contribution</h4>
+                <p>A Next.js application that takes a document from upload, through editing, to export.</p>
+                <h4>Key features</h4>
+                <ul class="checks">
+                  <li>Add text, highlights, images, rectangles and freehand strokes</li>
+                  <li>Add a typed signature to any page</li>
+                  <li>Reorder, rotate, duplicate and remove pages</li>
+                  <li>Download changes as a new PDF</li>
+                </ul>
+              </div>
+              <ul class="tags" aria-label="Technologies"><li>Next.js</li><li>In-browser PDF editing</li></ul>
+              <div class="project-links"><a class="button button-primary button-sm" href="https://pdfixit-mu.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="PDFixit live site (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-out"></use></svg><span>Live site</span></a></div>
             </div>
-         </section>
-         <section class="about" id="about">
-            <div class="max-width section-grid">
-               <div class="about-panel">
-                  <div class="about-card">
-                     <img src="images/picture.png" alt="Portrait of Sodiq Akintomide">
-                  </div>
-               </div>
-               <div class="about-content">
-                  <p class="section-tag">About Me</p>
-                  <h2 class="title fadein">Trusted engineering that feels modern and intuitive</h2>
-                  <p class="section-copy">I am a dedicated Software Developer building efficient, scalable, user-first applications across both frontend and backend ecosystems. I bring strong architecture, clean interfaces, and AI-powered enhancements into every project.</p>
-                  <div class="about-grid">
-                     <div>
-                        <strong>Frontend</strong>
-                        <span>React, React Native, Next.js, HTML5, CSS3, Tailwind CSS, Vite</span>
-                     </div>
-                     <div>
-                        <strong>Backend</strong>
-                        <span>Node.js, Express.js, NestJS, Spring Boot, Flask, REST APIs, GraphQL, Microservices</span>
-                     </div>
-                     <div>
-                        <strong>Data & API</strong>
-                        <span>PostgreSQL, MongoDB, Redis, GraphQL</span>
-                     </div>
-                  </div>
-                  <div class="social-links">
-                     <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                     <a href="https://twitter.com/akinz_sodiq" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i> Twitter</a>
-                     <a href="https://github.com/k33ngTomide" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
-                  </div>
-               </div>
+          </article>
+          <article class="card project reveal" aria-labelledby="qik-title">
+            <figure class="preview">
+              <figcaption><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>qik<em>Workflow diagram</em></figcaption>
+              <ol class="flow"><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#search"></use></svg><span><strong>Discover</strong><small>Search and categories</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#check"></use></svg><span><strong>Checkout</strong><small>Delivery workflows</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#layout"></use></svg><span><strong>Manage</strong><small>Products and orders</small></span></li></ol>
+            </figure>
+            <div class="project-body">
+              <p class="kicker">E-commerce</p>
+              <h3 id="qik-title">Qik</h3>
+              <p>An e-commerce application for selling digital and physical products, with an administrative side for running the store.</p>
+              <div class="project-detail">
+                <h4>My contribution</h4>
+                <p>Application engineering with Next.js, Firebase and Firestore across the shopping and administration flows.</p>
+                <h4>Key features</h4>
+                <ul class="checks">
+                  <li>Product management for digital and physical goods</li>
+                  <li>Administrative dashboard and order management</li>
+                  <li>Product search and categorisation</li>
+                  <li>Checkout and delivery workflows</li>
+                </ul>
+              </div>
+              <ul class="tags" aria-label="Technologies"><li>Next.js</li><li>Firebase</li><li>Firestore</li></ul>
+              <div class="project-links"><a class="button button-secondary button-sm" href="#contact" data-subject="About the Qik project"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#mail"></use></svg><span>Ask about this project</span></a><p class="muted-note"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#lock"></use></svg><span>No public repository or demo listed</span></p></div>
             </div>
-         </section>
-         <section class="skills" id="skills">
-            <div class="max-width">
-               <div class="section-intro">
-                  <p class="section-tag">Technical Skills</p>
-                  <h2 class="title fadein">What I build with</h2>
-                  <p class="section-copy">A modern stack equipped for production applications, AI-driven systems, and cloud-native deployment.</p>
-               </div>
-               <div class="skills-grid">
-                  <article class="skill-card">
-                     <h3>Languages</h3>
-                     <p>TypeScript, JavaScript (ES6+), Java, Python, SQL</p>
-                  </article>
-                  <article class="skill-card">
-                     <h3>Frontend & Mobile</h3>
-                     <p>React, React Native, Next.js, HTML5, CSS3, Tailwind CSS, Vite</p>
-                  </article>
-                  <article class="skill-card">
-                     <h3>Backend</h3>
-                     <p>Node.js, Express.js, NestJS, Spring Boot, Flask, REST APIs, GraphQL, Microservices</p>
-                  </article>
-                  <article class="skill-card">
-                     <h3>AI & Intelligent Systems</h3>
-                     <p>LLM Integration, AI Agents(Antigravity, Codex, Copilot, Claude), Prompt Engineering, Chatbots, Recommendation Systems, AI Workflow Automation</p>
-                  </article>
-                  <article class="skill-card">
-                     <h3>Databases & Caching</h3>
-                     <p>PostgreSQL, MongoDB, MySQL, Prisma ORM, Redis</p>
-                  </article>
-                  <article class="skill-card">
-                     <h3>Cloud & DevOps</h3>
-                     <p>Docker, AWS (EC2), GitHub Actions, CI/CD, Jenkins, Vercel, Render, Railway</p>
-                  </article>
-                  <article class="skill-card">
-                     <h3>Testing</h3>
-                     <p>Jest, JUnit, PyTest</p>
-                  </article>
-                  <article class="skill-card">
-                     <h3>Tools & Analytics</h3>
-                     <p>Git, GitHub, GitLab, Postman, Swagger/OpenAPI, Amplitude</p>
-                  </article>
-               </div>
+          </article>
+          <article class="card project reveal" aria-labelledby="move-title">
+            <figure class="preview">
+              <figcaption><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>move<em>Workflow diagram</em></figcaption>
+              <ol class="flow"><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#phone"></use></svg><span><strong>Mobile app</strong><small>React Native</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#server"></use></svg><span><strong>Backend API</strong><small>Places and events</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#sparkles"></use></svg><span><strong>Discovery</strong><small>Location and recommendations</small></span></li></ol>
+            </figure>
+            <div class="project-body">
+              <p class="kicker">Mobile application</p>
+              <h3 id="move-title">Move</h3>
+              <p>A mobile application for discovering places, clubs, restaurants and events.</p>
+              <div class="project-detail">
+                <h4>My contribution</h4>
+                <p>Mobile and backend engineering spanning the React Native app, its APIs and third-party integrations.</p>
+                <h4>Key features</h4>
+                <ul class="checks">
+                  <li>Discovery of places, clubs, restaurants and events</li>
+                  <li>Location-based features</li>
+                  <li>Recommendations</li>
+                  <li>Payment integration</li>
+                </ul>
+              </div>
+              <ul class="tags" aria-label="Technologies"><li>React Native</li><li>Backend APIs</li><li>Location services</li><li>Payments</li></ul>
+              <div class="project-links"><a class="button button-secondary button-sm" href="#contact" data-subject="About the Move project"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#mail"></use></svg><span>Ask about this project</span></a><p class="muted-note"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#lock"></use></svg><span>No public repository or demo listed</span></p></div>
             </div>
-         </section>
-         <section class="projects" id="projects">
-            <div class="max-width">
-               <div class="section-intro">
-                  <p class="section-tag">Projects</p>
-                  <h2 class="title fadein">Selected work</h2>
-               </div>
-               <div class="cards-grid">
-                  <article class="project-card">
-                     <a href="https://qoncave.vercel.app/" target="_blank" rel="noreferrer">
-                        <img src="./images/qoncave.png" alt="Qoncave Website">
-                        <div class="project-content">
-                           <h3>Qoncave Website</h3>
-                           <p>React, JavaScript, Tailwind CSS</p>
-                        </div>
-                     </a>
-                  </article>
-                  <article class="project-card">
-                     <a href="https://github.com/k33ngTomide/ShopEx" target="_blank" rel="noreferrer">
-                        <img src="./images/ShopEx.png" alt="Xplora.io Webpage">
-                        <div class="project-content">
-                           <h3>ShopEx</h3>
-                           <p>NextJs, TypeScript, Tailwind CSS, Antigravity(Agent)</p>
-                        </div>
-                     </a>
-                  </article>
-                  <article class="project-card">
-                     <a href="https://github.com/k33ngTomide/chatbot_backend" target="_blank" rel="noreferrer">
-                        <img src="./images/chatApp.png" alt="ChatBot Application">
-                        <div class="project-content">
-                           <h3>ChatBot Backend</h3>
-                           <p>AdonisJs, JavaScript, SQLite</p>
-                        </div>
-                     </a>
-                  </article>
-                  <article class="project-card">
-                     <a href="https://trivia-app-jet.vercel.app/" target="_blank" rel="noreferrer">
-                        <img src="./images/lexiguide.png" alt="Lexiguide Dictionary App">
-                        <div class="project-content">
-                           <h3>Lexiguide App</h3>
-                           <p>React, JavaScript, Wikipedia API</p>
-                        </div>
-                     </a>
-                  </article>
-                  <article class="project-card">
-                     <a href="https://trivia-app-jet.vercel.app/" target="_blank" rel="noreferrer">
-                        <img src="./images/trivia-quiz-app.png" alt="Trivia Quiz App">
-                        <div class="project-content">
-                           <h3>Trivia Quiz App</h3>
-                           <p>HTML, CSS, JavaScript</p>
-                        </div>
-                     </a>
-                  </article>
-                  
-               </div>
+          </article>
+          <article class="card project reveal" aria-labelledby="my-place-title">
+            <figure class="preview">
+              <figcaption><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>my-place<em>Workflow diagram</em></figcaption>
+              <ol class="flow"><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#pin"></use></svg><span><strong>Location</strong><small>Where the user is</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#sparkles"></use></svg><span><strong>Recommend</strong><small>Relevant suggestions</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#phone"></use></svg><span><strong>Explore</strong><small>Discovery on mobile</small></span></li></ol>
+            </figure>
+            <div class="project-body">
+              <p class="kicker">Mobile application</p>
+              <h3 id="my-place-title">My Place</h3>
+              <p>A mobile application built around location-based discovery and recommendations.</p>
+              <div class="project-detail">
+                <h4>My contribution</h4>
+                <p>Mobile and backend engineering for the discovery and recommendation experience.</p>
+                <h4>Key features</h4>
+                <ul class="checks">
+                  <li>Location-based discovery</li>
+                  <li>Recommendation functionality</li>
+                  <li>Mobile application backed by server APIs</li>
+                </ul>
+              </div>
+              <ul class="tags" aria-label="Technologies"><li>Mobile</li><li>Backend APIs</li><li>Location services</li><li>Recommendations</li></ul>
+              <div class="project-links"><a class="button button-secondary button-sm" href="#contact" data-subject="About the My Place project"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#mail"></use></svg><span>Ask about this project</span></a><p class="muted-note"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#lock"></use></svg><span>No public repository or demo listed</span></p></div>
             </div>
-         </section>
-         <section class="certificates" id="certificates">
-            <div class="max-width">
-               <div class="section-intro">
-                  <p class="section-tag">Certifications</p>
-                  <h2 class="title fadein">Honors & credentials</h2>
-               </div>
-               <div class="cards-grid certificate-grid">
-                  <article class="cert-card">
-                     <a href="https://www.hackerrank.com/certificates/baa006b72b03" target="_blank" rel="noreferrer">
-                        <img src="./images/softwareEngineerCertificate.png" alt="Software Engineer Certificate">
-                        <div>
-                           <h3>Software Engineer Certification</h3>
-                           <p>HackerRank</p>
-                        </div>
-                     </a>
-                  </article>
-                  <article class="cert-card">
-                     <a href="https://www.hackerrank.com/certificates/1e57fccab4bd" target="_blank" rel="noreferrer">
-                        <img src="./images/javaCertificate.png" alt="Java Certificate">
-                        <div>
-                           <h3>Java Certification</h3>
-                           <p>HackerRank</p>
-                        </div>
-                     </a>
-                  </article>
-                  <article class="cert-card">
-                     <a href="https://www.hackerrank.com/certificates/7ec0e2192ab5" target="_blank" rel="noreferrer">
-                        <img src="./images/pythonCertificate.png" alt="Python Certificate">
-                        <div>
-                           <h3>Python Certification</h3>
-                           <p>HackerRank</p>
-                        </div>
-                     </a>
-                  </article>
-                  
-                  <article class="cert-card">
-                     <a href="./images/powerBiCertificate.jpg" target="_blank" rel="noreferrer">
-                        <img src="./images/powerBiCertificate.jpg" alt="Power BI Certificate">
-                        <div>
-                           <h3>Power BI Certificate</h3>
-                           <p>Udemy</p>
-                        </div>
-                     </a>
-                  </article>
-               </div>
+          </article>
+          <article class="card project reveal" aria-labelledby="trading-research-title">
+            <figure class="preview">
+              <figcaption><span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>market-research<em>Workflow diagram</em></figcaption>
+              <ol class="flow"><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#database"></use></svg><span><strong>Market data</strong><small>MetaTrader 5</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#chart"></use></svg><span><strong>Analyse</strong><small>Technical indicators</small></span></li><li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#flaskc"></use></svg><span><strong>Backtest</strong><small>Performance and risk</small></span></li></ol>
+            </figure>
+            <div class="project-body">
+              <p class="kicker">Research project</p>
+              <h3 id="trading-research-title">AI-Powered Trading Research System</h3>
+              <p>A Python project for analysing market data and testing strategies against history, used to support research and decisions.</p>
+              <p class="notice"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#alert"></use></svg><span>Research and decision-support only. It is not a profitable trading system and is not financial advice.</span></p>
+              <div class="project-detail">
+                <h4>My contribution</h4>
+                <p>Python tooling for market data analysis, historical backtesting and strategy evaluation.</p>
+                <h4>Key features</h4>
+                <ul class="checks">
+                  <li>MT5 market data integration</li>
+                  <li>Technical indicator analysis</li>
+                  <li>Historical backtesting</li>
+                  <li>Strategy performance evaluation and risk analysis</li>
+                </ul>
+              </div>
+              <ul class="tags" aria-label="Technologies"><li>Python</li><li>MetaTrader 5</li><li>Backtesting</li></ul>
+              <div class="project-links"><a class="button button-secondary button-sm" href="#contact" data-subject="About the AI-Powered Trading Research System project"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#mail"></use></svg><span>Ask about this project</span></a><p class="muted-note"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#lock"></use></svg><span>No public repository or demo listed</span></p></div>
             </div>
-         </section>
-         <section class="contact" id="contact">
-            <div class="max-width contact-grid">
-               <div class="contact-panel">
-                  <p class="section-tag">Contact</p>
-                  <h2 class="title fadein">Let's work together</h2>
-                  <p class="section-copy">Have an idea or a challenge? I’m available for freelance, contract, and full-time opportunities.</p>
-                  <div class="contact-info">
-                     <div>
-                        <i class="fas fa-user"></i>
-                        <div>
-                           <strong>Name</strong>
-                           <span>Sodiq Akintomide Muiliyu</span>
-                        </div>
-                     </div>
-                     <div>
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                           <strong>Location</strong>
-                           <span>Lagos, Nigeria</span>
-                        </div>
-                     </div>
-                     <div>
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                           <strong>Email</strong>
-                           <span>msodiqakintomide@gmail.com</span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="contact-socials">
-                     <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                     <a href="https://twitter.com/akinz_sodiq" target="_blank" rel="noreferrer"><i class="fab fa-twitter"></i> Twitter</a>
-                     <a href="https://github.com/k33ngTomide" target="_blank" rel="noreferrer"><i class="fab fa-github"></i> GitHub</a>
-                  </div>
-               </div>
-               <form class="contact-form" action="mailto:msodiqakintomide@gmail.com" method="post">
-                  <div class="fields-row">
-                     <label class="field-label">
-                        <span class="visually-hidden">Full name</span>
-                        <input type="text" name="name" id="name" placeholder="Full Name" required>
-                     </label>
-                     <label class="field-label">
-                        <span class="visually-hidden">Email address</span>
-                        <input type="email" name="email" id="email" placeholder="Email" required>
-                     </label>
-                  </div>
-                  <label class="field-label">
-                     <span class="visually-hidden">Subject</span>
-                     <input type="text" name="subject" id="subject" placeholder="Subject" required>
-                  </label>
-                  <label class="field-label">
-                     <span class="visually-hidden">Message</span>
-                     <textarea name="message" id="message" placeholder="Describe your project or message" rows="6" required></textarea>
-                  </label>
-                  <button type="submit" class="button button-primary">Send Message <i class="fas fa-paper-plane"></i></button>
-               </form>
+          </article>
+        </div>
+
+        <h3 class="subheading reveal">More work</h3>
+        <div class="mini-grid">
+          <article class="card mini-card reveal">
+            <div class="mini-shot mini-code" aria-hidden="true"><pre><b>mutation</b> Deposit($amount: Float!) {
+  deposit(depositInput: {
+    amount: $amount
+  }) {
+    message
+    wallet { balance }
+  }
+}</pre></div>
+            <div class="mini-body">
+              <h4>EkoPay</h4>
+              <p>A wallet application with sign-up and login, deposits, PIN-protected withdrawals and transaction history over a GraphQL API.</p>
+              <ul class="tags" aria-label="Technologies"><li>NestJS</li><li>GraphQL</li><li>MongoDB</li><li>React</li><li>TypeScript</li></ul>
+              <div class="mini-links"><a class="text-link" href="https://ekopay.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="EkoPay: Live demo (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-out"></use></svg><span>Live demo</span></a><a class="text-link" href="https://github.com/k33ngTomide/ekopay" target="_blank" rel="noopener noreferrer" aria-label="EkoPay: Code (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#github"></use></svg><span>Code</span></a></div>
             </div>
-         </section>
-      </main>
-      <footer>
-         <div class="max-width footer-content">
-            <span>Created by <a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noreferrer">Sodiq Akintomide Muiliyu</a> | © 2026 All rights reserved</span>
-         </div>
-      </footer>
-   </body>
+          </article>
+          <article class="card mini-card reveal">
+            <div class="mini-shot mini-code" aria-hidden="true"><pre><b>POST</b>   /chat
+<b>GET</b>    /api/cms/content
+<b>POST</b>   /api/cms/content
+<b>PUT</b>    /api/cms/content/:id
+<b>DELETE</b> /api/cms/content/:id</pre></div>
+            <div class="mini-body">
+              <h4>AI Chatbot and CMS</h4>
+              <p>A chatbot that answers from managed content first and falls back to Mistral AI, with an interface for maintaining that content.</p>
+              <ul class="tags" aria-label="Technologies"><li>AdonisJS</li><li>TypeScript</li><li>Mistral AI</li><li>SQLite</li><li>React</li></ul>
+              <div class="mini-links"><a class="text-link" href="https://chatbot-frontend-delta-three.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="AI Chatbot and CMS: Live demo (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-out"></use></svg><span>Live demo</span></a><a class="text-link" href="https://github.com/k33ngTomide/chatbot_backend" target="_blank" rel="noopener noreferrer" aria-label="AI Chatbot and CMS: Backend (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#github"></use></svg><span>Backend</span></a><a class="text-link" href="https://github.com/k33ngTomide/chatbot-frontend" target="_blank" rel="noopener noreferrer" aria-label="AI Chatbot and CMS: Frontend (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#github"></use></svg><span>Frontend</span></a></div>
+            </div>
+          </article>
+          <article class="card mini-card reveal">
+            <img class="mini-shot" src="assets/img/qoncave.webp" alt="Qoncave home page showing the brand name over an interior ceiling design" width="800" height="483" loading="lazy" decoding="async">
+            <div class="mini-body">
+              <h4>Qoncave</h4>
+              <p>A website for an interior and exterior design business.</p>
+              <ul class="tags" aria-label="Technologies"><li>React</li><li>JavaScript</li><li>Tailwind CSS</li></ul>
+              <div class="mini-links"><a class="text-link" href="https://qoncave.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Qoncave: Live site (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-out"></use></svg><span>Live site</span></a></div>
+            </div>
+          </article>
+          <article class="card mini-card reveal">
+            <img class="mini-shot" src="assets/img/shopex.webp" alt="ShopEx storefront home page with a catalogue call to action" width="800" height="413" loading="lazy" decoding="async">
+            <div class="mini-body">
+              <h4>ShopEx</h4>
+              <p>A storefront with a product catalogue, order area and shopping cart.</p>
+              <ul class="tags" aria-label="Technologies"><li>Next.js</li><li>TypeScript</li><li>Tailwind CSS</li></ul>
+              <div class="mini-links"><span class="muted-note"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#lock"></use></svg><span>Source not public</span></span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="credentials" aria-labelledby="credentials-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-tag"><span>05</span> Certifications and achievements</p>
+          <h2 id="credentials-title">Credentials</h2>
+        </header>
+        <div class="cert-grid">
+          <article class="card cert reveal">
+            <img src="assets/img/cert-software-engineer.webp" alt="Software Engineer certificate from HackerRank" width="560" height="414" loading="lazy" decoding="async">
+            <div>
+              <p class="kicker">HackerRank · <time datetime="2026-02">February 2026</time></p>
+              <h3>Software Engineer</h3>
+              <p>Role certification</p>
+              <a class="text-link" href="https://www.hackerrank.com/certificates/baa006b72b03" target="_blank" rel="noopener noreferrer" aria-label="Verify credential: Software Engineer (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-out"></use></svg><span>Verify credential</span></a>
+            </div>
+          </article>
+          <article class="card cert reveal">
+            <img src="assets/img/cert-java.webp" alt="Java (Basic) certificate from HackerRank" width="560" height="424" loading="lazy" decoding="async">
+            <div>
+              <p class="kicker">HackerRank · <time datetime="2023-10">October 2023</time></p>
+              <h3>Java (Basic)</h3>
+              <p>Skill certification</p>
+              <a class="text-link" href="https://www.hackerrank.com/certificates/1e57fccab4bd" target="_blank" rel="noopener noreferrer" aria-label="Verify credential: Java (Basic) (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-out"></use></svg><span>Verify credential</span></a>
+            </div>
+          </article>
+          <article class="card cert reveal">
+            <img src="assets/img/cert-python.webp" alt="Python (Basic) certificate from HackerRank" width="560" height="424" loading="lazy" decoding="async">
+            <div>
+              <p class="kicker">HackerRank · <time datetime="2023-10">October 2023</time></p>
+              <h3>Python (Basic)</h3>
+              <p>Skill certification</p>
+              <a class="text-link" href="https://www.hackerrank.com/certificates/7ec0e2192ab5" target="_blank" rel="noopener noreferrer" aria-label="Verify credential: Python (Basic) (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-out"></use></svg><span>Verify credential</span></a>
+            </div>
+          </article>
+          <article class="card cert reveal">
+            <img src="assets/img/cert-power-bi.webp" alt="Power BI: Data Analytics Essentials certificate from Udemy" width="560" height="416" loading="lazy" decoding="async">
+            <div>
+              <p class="kicker">Udemy · <time datetime="2022-07">July 2022</time></p>
+              <h3>Power BI: Data Analytics Essentials</h3>
+              <p>Certificate of completion</p>
+              <a class="text-link" href="assets/img/cert-power-bi-full.webp" target="_blank" rel="noopener noreferrer" aria-label="View certificate: Power BI: Data Analytics Essentials (opens in a new tab)"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-out"></use></svg><span>View certificate</span></a>
+            </div>
+          </article>
+        </div>
+        <div class="card awards reveal">
+          <div>
+            <p class="kicker">Semicolon Africa</p>
+            <h3>Achievements</h3>
+            <p>Recognition from my one-year software engineering training programme.</p>
+          </div>
+          <ul>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#award"></use></svg><span><strong>Mike Bateman Award</strong><small>2024</small></span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#award"></use></svg><span><strong>Village Person Award</strong><small>2024</small></span></li>
+              <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#award"></use></svg><span><strong>Impact Personality of the Year</strong><small>2023</small></span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <header class="section-head reveal">
+          <p class="section-tag"><span>06</span> Education</p>
+          <h2 id="education-title">Education and training</h2>
+        </header>
+        <ul class="education">
+          <li class="card reveal"><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#cap"></use></svg><div><h3>BSc Water Resources Management and Hydrology</h3><p>Federal University of Agriculture, Abeokuta (FUNAAB)</p></div></li>
+          <li class="card reveal"><svg class="icon focus-icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#code"></use></svg><div><h3>Software Engineering Training Programme</h3><p>Semicolon Africa · One year</p></div></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <div class="reveal">
+          <p class="section-tag"><span>07</span> Contact</p>
+          <h2 id="contact-title">Let’s build something dependable</h2>
+          <p class="section-copy">Hiring for an engineering role, or need a product designed, built and shipped? Send me a message.</p>
+          <ul class="contact-list">
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#mail"></use></svg><div><span>Email</span><a href="mailto:msodiqakintomide@gmail.com">msodiqakintomide@gmail.com</a></div></li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#linkedin"></use></svg><div><span>LinkedIn</span><a href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noopener noreferrer">Sodiq Akintomide Muiliyu</a></div></li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#github"></use></svg><div><span>GitHub</span><a href="https://github.com/k33ngTomide" target="_blank" rel="noopener noreferrer">github.com/k33ngTomide</a></div></li>
+            <li><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#pin"></use></svg><div><span>Location</span><p>Lagos, Nigeria</p></div></li>
+          </ul>
+        </div>
+
+        <form class="card contact-form reveal" id="contact-form" action="https://formsubmit.co/msodiqakintomide@gmail.com" method="POST" data-endpoint="https://formsubmit.co/ajax/msodiqakintomide@gmail.com">
+          <div class="field-row">
+            <div class="field"><label for="name">Full name</label><input id="name" name="name" type="text" autocomplete="name" maxlength="100" required aria-describedby="name-error"><p class="field-error" id="name-error"></p></div>
+            <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" maxlength="150" required aria-describedby="email-error"><p class="field-error" id="email-error"></p></div>
+          </div>
+          <div class="field"><label for="subject">Subject</label><input id="subject" name="subject" type="text" maxlength="150" required aria-describedby="subject-error"><p class="field-error" id="subject-error"></p></div>
+          <div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="6" maxlength="4000" required aria-describedby="message-error"></textarea><p class="field-error" id="message-error"></p></div>
+          <div class="honey" aria-hidden="true"><label for="_honey">Leave this field empty</label><input id="_honey" name="_honey" type="text" tabindex="-1" autocomplete="off"></div>
+          <input type="hidden" name="_template" value="table">
+          <button class="button button-primary" type="submit"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#send"></use></svg><span data-label>Send message</span><span class="spinner" aria-hidden="true"></span></button>
+          <p class="form-privacy">Your message is delivered to my inbox through FormSubmit.</p>
+          <div class="form-status" role="status" aria-live="polite"></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span data-year>2026</span> Sodiq Akintomide Muiliyu</p>
+      <div class="socials">
+        <a class="social-link" href="https://github.com/k33ngTomide" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#github"></use></svg><span>GitHub</span></a>
+        <a class="social-link" href="https://www.linkedin.com/in/sodiq-muiliyu-484013226" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#linkedin"></use></svg><span>LinkedIn</span></a>
+        <a class="social-link" href="https://twitter.com/akinz_sodiq" target="_blank" rel="noopener noreferrer"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#x"></use></svg><span>X</span></a>
+      </div>
+    </div>
+  </footer>
+
+  <a class="to-top" href="#home" aria-label="Scroll to top"><svg class="icon" aria-hidden="true" focusable="false"><use href="assets/icons/sprite.svg#arrow-up"></use></svg></a>
+</body>
 </html>
